@@ -1,43 +1,53 @@
 .package-name {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 30px;
-    color: #112211;
-  }
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #112211;
+}
 
-  .rating-star .text-warning{
- font-size: 12px;
+.rating-star .text-warning {
+  font-size: 12px;
+}
+.packages-section {
+  width: 50%;
+  margin: auto;
+}
 
+.package-location p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+  opacity: 0.75;
+}
 
-  }
-  
-  .package-location p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #112211;
-    opacity: 0.75;
-  }
-  
-  .package-price {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 39px;
-    color: #ff8682;
-  }
-  
-  .overview p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 20px;
-    color: #112211;
-    opacity: 0.75;
-  }
-  .itinerary-container{
-    display:  grid;
-    grid-template-columns: repeat( 3, 1fr);
-  }
+.package-price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 39px;
+  color: #ff8682;
+}
+
+.overview p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #112211;
+  opacity: 0.75;
+}
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #112211;
+  opacity: 0.75;
+}
+.itinerary-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

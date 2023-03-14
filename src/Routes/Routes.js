@@ -3,6 +3,7 @@ import Root from "../Layout/Root";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import AddPaymentMethod from "../Pages/AddPaymentMethod/AddPaymentMethod";
 import AllFlights from "../Pages/AllFlights/AllFlights";
+import BookingDetails from "../Pages/BookingDetails/BookingDetails";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import DisplayPackage from "../Pages/DisplayPackage/DisplayPackage";
 import Facilities from "../Pages/Facilities/Facilities";
@@ -88,6 +89,12 @@ export const router = createBrowserRouter([
       {
         path: "/packages/:id",
         element: <PackagesDetails></PackagesDetails>,
+        loader: async ({ params }) =>
+        fetch(`http://localhost:5000/packages/${params.id}`),
+      },
+      {
+        path: "/bookingDetails/:id",
+        element: <BookingDetails></BookingDetails>,
         loader: async ({ params }) =>
         fetch(`http://localhost:5000/packages/${params.id}`),
       },
