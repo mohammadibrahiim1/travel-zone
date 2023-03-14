@@ -101,7 +101,7 @@ const Packages = () => {
               See Your Favorite Packages Here
             </span>{" "}
             <span className="ms-3 text-warning packages-length ">
-              {packages.length} packages here{" "}
+              {packages.length}  packages here{" "}
             </span>
           </div>
           <hr />

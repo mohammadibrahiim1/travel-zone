@@ -53,8 +53,8 @@ const DisplayPackage = ({ pk }) => {
                 <p className="mt-3">{pk.journey}</p>
                 <h5 class="package-price">{pk.tourCategory}</h5>
               </div>
-              <p class="mt-4 d-flex justify-content-start align-items-center gap-3">
-                <Link to="/" className="border rounded-2 p-2">
+              <p class="mt-2 d-flex justify-content-start align-items-center gap-3">
+                <Link to="/" className="border rounded-2 ps-2 pe-2">
                   <FaHeart />
                 </Link>{" "}
                 <Link

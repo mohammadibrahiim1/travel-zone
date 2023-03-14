@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import { GiJourney } from "react-icons/gi";
@@ -93,3 +94,47 @@ const BookingDetails = () => {
 };
 
 export default BookingDetails;
+=======
+import React from 'react';
+import './BookingDetails.css'
+
+const BookingDetails = () => {
+    return (
+        <div>
+          <section>
+          <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+          </section>
+        </div>
+    );
+};
+
+export default BookingDetails;
+>>>>>>> a2d00516d6e3d3d16f5809220057a3fc30be053d

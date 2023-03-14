@@ -5,7 +5,7 @@ import AddPaymentMethod from "../Pages/AddPaymentMethod/AddPaymentMethod";
 import AllFlights from "../Pages/AllFlights/AllFlights";
 import BookingDetails from "../Pages/BookingDetails/BookingDetails";
 import ContactUs from "../Pages/ContactUs/ContactUs";
-import DisplayPackage from "../Pages/DisplayPackage/DisplayPackage";
+// import DisplayPackage from "../Pages/DisplayPackage/DisplayPackage";
 import Facilities from "../Pages/Facilities/Facilities";
 import FindFlights from "../Pages/FindFlights/FindFlights";
 import FindStays from "../Pages/FindStays/FindStays";
@@ -93,10 +93,17 @@ export const router = createBrowserRouter([
         fetch(`http://localhost:5000/packages/${params.id}`),
       },
       {
+<<<<<<< HEAD
         path: "/bookingDetails/:id",
         element: <BookingDetails></BookingDetails>,
         loader: async ({ params }) =>
         fetch(`http://localhost:5000/packages/${params.id}`),
+=======
+        path: "/bookingdetails",
+        element: <BookingDetails></BookingDetails>,
+        // loader: async ({ params }) =>
+        // fetch(`http://localhost:5000/packages/${params.id}`),
+>>>>>>> a2d00516d6e3d3d16f5809220057a3fc30be053d
       },
     ],
   },
